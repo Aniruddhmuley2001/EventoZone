@@ -6,11 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form action='/analyze' method='get'>
         <h1>Contact us</h1>
-        <p>Name: <input type="text"></p><br>
-        <p>Email: <input type="email"></p><br>
-        <p>Message: </p><textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea><br><br>
+        <div class="form-group">
+            <label class="text" for="username">Name: </label>
+            <input type="text" class="" name='Full name' placeholder="Full Name"id="username" rows="9"><br><br>
+        </div>
+        <div class="form-group">
+            <label class="email" for="username">Email: </label>
+            <input type="email" class="" name='Email' placeholder="Email" id="email" rows="9"><br><br>
+        </div>
+        <div class="form-group">
+            <label class="text" for="username">Message: </label>
+            <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea><br><br>
+        </div>
         <button type="submit">Submit</button>
     </form>
 </body>

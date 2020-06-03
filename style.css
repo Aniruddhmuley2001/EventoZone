@@ -1,10 +1,36 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 90vh;
+    background-color: #131a37;
 }
 
 #particles-js{
     height: 100%;
     background: #131a37;
+}
+
+#About{
+    border: 2px solid #1900ff;
+    margin: 5px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(0, 183, 255);
+    font-weight: bold;
+    font-size: large;
+}
+
+#About h2{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    /* margin-left: 10px; */
+    background-color: #1900ff;
+    display: block;
+    color: white;
+    border-radius: 15px;
 }

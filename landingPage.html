@@ -6,10 +6,11 @@
     <title>EventoZone: Managing your events, without any hassle</title>
     <link rel = "icon" href = "./images/EventoZone_tabIcon.png" type = "image/x-icon">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Space+Mono" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <link rel="stylesheet" href="animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="text-gray-500 bg-gray-900 body-font">
@@ -22,7 +23,7 @@
         <a class="ml-3 text-xl" href="" style="color: azure; font-weight: bold;">EventoZone</a>
       </a>
       <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-        <a class="mr-5 hover:text-white" style="color: azure;">About</a>
+        <a class="mr-5 hover:text-white" style="color: azure;" href="#About">About</a>
         <a class="mr-5 hover:text-white" style="color: azure;">Contact Us</a>
         <!-- <a class="mr-5 hover:text-white">Third Link</a>
             <a class="mr-5 hover:text-white">Fourth Link</a> -->
@@ -39,9 +40,27 @@
     <br><br>
     <h1 style="color: azure; font-size: 6rem; margin-left: 13px;" class="animate__animated animate__slideInLeft animate__slow">Sample Heading</h1>
     <h4 style="color: blanchedalmond; font-size: 2rem; margin-left: 13px;" class="animate__animated animate__slideInLeft animate__slow">Related content</h4>
-  </div>  
-  
+  </div><br>
+
+  <div id="About" data-aos="zoom-in-up" data-aos-duration="2000">
+    <h2 style="font-family: 'Roboto', sans-serif;">About Us</h2><br>
+    <h4 style="font-family: 'Open Sans', sans-serif;">
+      A project made by The Nishachars, as we call ourselves, comprising of Aniruddh Muley, Dishant Vyas and Shrey Mavani, is a 
+      solution to a problem which almost every institute or event manager faces, but not resolved. The issues of managing the registration of attendees. The managers 
+      and commitees have a large team to work on these, but still there are chances of human error. College Fests and programs show the face and the reputation of the institute, 
+      and the shows, that of the artists performing. One small error can cause a great havoc for the organisers and the crowd.<br><br>
+      
+      Here we are with the solution. We offer a platform for the organisers to register themselves with us and put up their events on our platform. As the registrations start, the 
+      organizer will be shown the details of the attendees, who will be given a Uniquely Generated ID (UGID) for the event, and the required analytics to get an overview of the count. 
+    </h4>
+  </div>
+  <br>
+
   <script src="particles.js"></script>
   <script src="app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

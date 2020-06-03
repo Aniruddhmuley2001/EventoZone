@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EventoZone: Managing your events, without any hassle</title>
-    <link rel = "icon" href = "./img/EventoZone_Logo.png" type = "image/x-icon">
+    <link rel = "icon" href = "./images/EventoZone_tabIcon.png" type = "image/x-icon">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Space+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="animate.css">
 </head>
 <body>
-    <header class="text-gray-500 bg-gray-900 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg> -->
-            <img src="./img/EventoZone_Logo.png" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full">
-            <span class="ml-3 text-xl">EventoZone</span>
-          </a>
-          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a class="mr-5 hover:text-white">About</a>
-            <a class="mr-5 hover:text-white">Contact Us</a>
-            <!-- <a class="mr-5 hover:text-white">Third Link</a>
+  <header class="text-gray-500 bg-gray-900 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg> -->
+        <img src="./images/EventoZone_Logo.jpg" style="width: 2rem;">
+        <a class="ml-3 text-xl" href="" style="color: azure; font-weight: bold;">EventoZone</a>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-white" style="color: azure;">About</a>
+        <a class="mr-5 hover:text-white" style="color: azure;">Contact Us</a>
+        <!-- <a class="mr-5 hover:text-white">Third Link</a>
             <a class="mr-5 hover:text-white">Fourth Link</a> -->
-          </nav>
-          <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Organizer Log In
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
-        </div>
-    </header>
+      </nav>
+      <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Organizer Log In
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <div id="particles-js">
+    <br><br>
+    <h1 style="color: azure; font-size: 6rem; margin-left: 13px;" class="animate__animated animate__slideInLeft animate__slow">Sample Heading</h1>
+    <h4 style="color: blanchedalmond; font-size: 2rem; margin-left: 13px;" class="animate__animated animate__slideInLeft animate__slow">Related content</h4>
+  </div>  
+  
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

@@ -1,1 +1,2 @@
 # EventoZone
+Collaboration Deal successful.

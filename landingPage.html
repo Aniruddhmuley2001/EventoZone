@@ -8,6 +8,7 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="animate.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -41,7 +42,8 @@
       <h1 style="color: azure; font-size: 5rem; margin-left: 13px;" class="animate__animated animate__slideInLeft animate__slow">Sample Heading</h1>
       <h4 style="color: blanchedalmond; font-size: 2rem; margin-left: 13px;" class="animate__animated animate__slideInLeft animate__slow">Related content</h4>
     </div>
-  </div><br><br><br>
+  </div>
+  <!-- <br><br><br> -->
 
   <div id="About" data-aos="zoom-in-up" data-aos-duration="2000">
     <h2 style="font-family: 'Roboto', sans-serif;">About Us</h2><br>
@@ -54,9 +56,26 @@
       Here we are with the solution. We offer a platform for the organisers to register themselves with us and put up their events on our platform. As the registrations start, the 
       organizer will be shown the details of the attendees, who will be given a Uniquely Generated ID (UGID) for the event, and the required analytics to get an overview of the count. 
     </h4>
-  </div>
-  <br>
+  </div><br><br>
 
+  <div id="Categories">
+    <h2 style="font-family: 'Roboto', sans-serif;">Categories</h2><br>
+    <button class="tablink" onclick="openCity('London', this, '#1f2952')" id="defaultOpen">London</button>
+    <button class="tablink" onclick="openCity('Paris', this, '#1f2952')">Paris</button>
+
+    <div id="London" class="tabcontent">
+      <br>
+      <h1>London</h1><br>
+      <p>London is the capital city of England.</p>
+    </div>
+    
+    <div id="Paris" class="tabcontent">
+      <h1>Paris</h1>
+      <p>Paris is the capital of France.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
   <script src="particles.js"></script>
   <script src="app.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

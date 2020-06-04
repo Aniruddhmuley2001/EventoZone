@@ -5,37 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EventoZone</title>
     <link rel = "icon" href = "./images/EventoZone_tabIcon.png" type = "image/x-icon">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
-<body>
-  <header class="text-gray-500 bg-gray-900 body-font">
+<body class="body">
+  <!-- <header class="text-gray-500 bg-gray-900 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg> -->
         <img src="./images/EventoZone_Logo.jpg" style="width: 2rem;">
         <a class="ml-3 text-xl" href="" style="color: azure; font-weight: bold;">EventoZone</a>
       </a>
       <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
         <a class="mr-5 hover:text-white" style="color: azure;" href="#About">About</a>
         <a class="mr-5 hover:text-white" style="color: azure;">Contact Us</a>
-        <!-- <a class="mr-5 hover:text-white">Third Link</a>
-            <a class="mr-5 hover:text-white">Fourth Link</a> -->
       </nav>
-      <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Organizer Log In
+      <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Event Log In
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
         </svg>
       </button>
     </div>
-  </header>
+  </header> -->
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-collapse fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="./images/EventoZone_tabIcon.png" style="width: 2rem;" class="d-inline-block align-top" alt="">
+      EventoZone
+    </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Why us?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>    
+      </ul>
+    </div>
+  </nav>
 
   <div id="particles-js">
     <div id="opening_line">
@@ -45,7 +74,7 @@
   </div>
   <!-- <br><br><br> -->
 
-  <div id="About" data-aos="zoom-in-up" data-aos-duration="2000">
+  <div id="About" data-aos="zoom-in-up" data-aos-duration="1500">
     <h2 style="font-family: 'Roboto', sans-serif;">About Us</h2><br>
     <h4 style="font-family: 'Open Sans', sans-serif;">
       A project made by The Nishachars, as we call ourselves, comprising of Aniruddh Muley, Dishant Vyas and Shrey Mavani, is a 
@@ -58,20 +87,21 @@
     </h4>
   </div><br><br>
 
-  <div id="Categories">
+  <div id="Categories" data-aos="zoom-in-up" data-aos-duration="1500">
     <h2 style="font-family: 'Roboto', sans-serif;">Categories</h2><br>
-    <button class="tablink" onclick="openCity('London', this, '#1f2952')" id="defaultOpen">London</button>
-    <button class="tablink" onclick="openCity('Paris', this, '#1f2952')">Paris</button>
+    <button class="tablink" onclick="openCity('London', this, '#555')" id="defaultOpen">Attendee</button>
+    <button class="tablink" onclick="openCity('Paris', this, '#555')">Organizer</button>
 
     <div id="London" class="tabcontent">
-      <br>
-      <h1>London</h1><br>
-      <p>London is the capital city of England.</p>
+      <h4 style="font-family: 'Roboto', sans-serif;">In search of any event? Yeah man! You are at the right place. Here you'll find a plethora of events, from a bang-on music concert to hilarious comedy shows, from college fests 
+        to hackathons and seminars, all of it. Excited, right? Click <a href="">here</a> to explore further...
+      </h4>
     </div>
     
     <div id="Paris" class="tabcontent">
-      <h1>Paris</h1>
-      <p>Paris is the capital of France.</p>
+      <h4 style="font-family: 'Roboto', sans-serif;">In search of a platform to host your event? Yes sir! You too are at the right place. We help people host a variety of events, from a bang-on music concert to hilarious comedy shows, from college fests 
+        to hackathons and seminars, all of it. Not yet explored? Click <a href="">here</a> for the same...
+      </h4>
     </div>
   </div>
 

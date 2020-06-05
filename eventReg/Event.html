@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+
+    <title>Event Registration Form: EventZone</title>
+    <link rel="stylesheet" href="../eventReg/Eventreg.css">
+    <link rel = "icon" href = "../images/EventoZone_tabIcon.png" type = "image/x-icon">
+</head>
+
+<body class="background">
+    <h1 class="animate__animated animate__slideInLeft animate__slow" style="color:white; font-size: 2.5rem; margin-left: 22rem;">EVENT REGISTRATION</h1>
+    
+    <div class="container" style="width: 90rem;">
+
+        <form action='/analyze' method='get'>
+
+
+
+            <div class="form-group" style="margin-top: 2.2rem;">
+                <label class="text" for="eventname">Event Name</label>
+                <input  type="text" class="" name='e_name' placeholder="Event Name"id="eventname" rows="9">
+            </div>
+            
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Description</label>
+                <textarea class="form-control" name='text' id="exampleFormControlTextarea1" rows="4" placeholder="Description Here" ></textarea>
+            </div>
+
+            <div class="form-group">
+                <label class="number" for="loca">Location</label>
+                <input  type="number" class="" name='e_location' placeholder="Location"id="loca">
+            </div>
+
+            <div class="form-group">
+                <label class="date" style="margin-right:2rem;" for="e_fdate">From</label>
+                <input  type="date" class="date" name='e_fdate' id="e_fdate">
+                <input type="time" class="time" name="e_ftime">
+            
+                <label class="date" for="e_tdate" style="margin:0 2rem;">To</label>
+                <input  type="date" class="date" name='e_tdate' id="e_tdate">
+                <input type="time" class="time" name="e_ttime">
+            </div>
+
+            <div class="form-group">
+                <label class="date" for="e_rdate">Registration Deadline</label>
+                <input  type="date" class="date" name='e_rdate' id="e_fdate">
+                <input type="time" class="time" name="e_rtime">
+            </div>
+
+            <div class="form-group">
+                <label  for="email" style="margin-right:2rem;">Host E-mail</label>
+                <input  type="email"  name='e_email' id="email" placeholder="E-mail">
+            </div>
+            
+            <div class="form-group">
+                <label class="password" for="e_pw" style="margin-right:0.5rem;">Host-Password</label>
+                <input  type="password"  name='e_pw' id="e_pw" placeholder="Password">
+            </div>
+            
+            <button type="submit" class="btn btn-dark mt-2" style="margin: 0.5rem;">SUBMIT</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+</html>

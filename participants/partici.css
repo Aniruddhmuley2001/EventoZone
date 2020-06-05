@@ -1,0 +1,90 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+     background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .value-button:hover {
+    cursor: pointer;
+  }
+  
+  form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+    height: 30px;
+    margin-left: 3px;
+  }
+  
+  form #increase {
+    margin-left: -4px;
+   
+    border-radius: 0 8px 8px 0;
+    height: 30px;
+  }
+  
+  form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input#numb {
+    text-align: center;
+    border: none;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    margin: 2px;
+    width: 40px;
+    height: 30px;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+          .text {
+              margin-right: 10px;
+          }
+  
+          .number {
+              margin-right: 27px;
+          }
+  
+          .email {
+              margin-right: 31px;
+          }
+  
+          .container{
+              background-color:white;
+              padding: 8px;
+              border:2px solid rgb(209, 240, 240);
+              border-radius: 20px;
+              opacity: 0.92;
+          }
+  
+          .background{
+              background-color:#1f2952;
+              background-image:url("https://www.thoughtco.com/thmb/s3la5wZ6hauPxYMlTLO5YVxR9UU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Sirius-58d14cc33df78c3c4fbc0ddf.jpg");
+              min-height: 380px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+              padding: 60px;
+          }

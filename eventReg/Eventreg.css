@@ -1,0 +1,38 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.text{
+    margin-right: 0.62 rem;
+}
+
+.number{
+    margin-right: 1.7rem;
+}
+.email{
+    margin-right: 1.9rem;
+}
+
+.container{
+    background-color:white;
+    padding: 8px;
+    margin-top: 2rem;
+    border:2px solid rgb(209, 240, 240);
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.background{
+    background-color:#1f2952;
+    background-image:url("https://capturetheatlas.com/wp-content/uploads/2019/11/Northern-Lights-Yukon-image.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 60px;
+}
+
+input[type=date]{
+    margin:0 1rem;
+}

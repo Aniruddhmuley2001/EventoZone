@@ -58,33 +58,43 @@
       margin: 0;
   }
   
-          .text {
-              margin-right: 10px;
-          }
+  .text {
+    margin-right: 10px;
+  }
   
-          .number {
-              margin-right: 27px;
-          }
+  .number {
+    margin-right: 27px;
+  }
   
-          .email {
-              margin-right: 31px;
-          }
+  .email {
+    margin-right: 31px;
+  }
   
-          .container{
-              background-color:white;
-              padding: 8px;
-              border:2px solid rgb(209, 240, 240);
-              border-radius: 20px;
-              opacity: 0.92;
-          }
+  .container{
+    background-color:white;
+    padding: 8px;
+    border:2px solid rgb(209, 240, 240);
+    border-radius: 20px;
+    opacity: 0.92;
+  }
   
-          .background{
-              background-color:#1f2952;
-              background-image:url("https://www.thoughtco.com/thmb/s3la5wZ6hauPxYMlTLO5YVxR9UU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Sirius-58d14cc33df78c3c4fbc0ddf.jpg");
-              min-height: 380px;
-              background-position: center;
-              background-repeat: no-repeat;
-              background-size: cover;
-              position: relative;
-              padding: 60px;
-          }
+.background{
+  background-color:#1f2952;
+  /* background-image:url("https://www.thoughtco.com/thmb/s3la5wZ6hauPxYMlTLO5YVxR9UU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Sirius-58d14cc33df78c3c4fbc0ddf.jpg"); */
+  background-image: url("../images/background3.png");
+  min-height: 380px;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  position: relative;
+  padding: 60px;
+}
+
+.background h1{
+  border: black 2px solid;
+  border-radius: 30px;
+  background-color: #0e152e;
+  filter: saturate(0.6);
+  font-family: 'Roboto', sans-serif;
+} 
+

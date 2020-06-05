@@ -17,9 +17,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/123bd1392c.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/80689f0353.js"></script>
 </head>
 <body class="body">
   <!-- <header class="text-gray-500 bg-gray-900 body-font">
@@ -54,10 +56,10 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Why us?</a>
+          <a class="nav-link" href="#whyUs">Why us?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Categories</a>
+          <a class="nav-link" href="#Categories">Categories</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us</a>
@@ -68,23 +70,47 @@
 
   <div id="particles-js">
     <div id="opening_line">
-      <h1 style="color: azure; font-size: 5rem; margin-left: 13px;" class="animate__animated animate__slideInLeft animate__slow">Sample Heading</h1>
-      <h4 style="color: blanchedalmond; font-size: 2rem; margin-left: 13px;" class="animate__animated animate__slideInLeft animate__slow">Related content</h4>
+      <h1 style="color: azure; font-size: 5rem; margin-left: 13px; font-family: 'Roboto', sans-serif;" class="animate__animated animate__slideInLeft animate__slow">Sample Heading</h1>
+      <h4 style="color: blanchedalmond; font-size: 2rem; margin-left: 13px; font-family: 'Open Sans', sans-serif;" class="animate__animated animate__slideInLeft animate__slow">Related content</h4>
     </div>
   </div>
   <!-- <br><br><br> -->
 
-  <div id="About" data-aos="zoom-in-up" data-aos-duration="1500">
-    <h2 style="font-family: 'Roboto', sans-serif;">About Us</h2><br>
-    <h4 style="font-family: 'Open Sans', sans-serif;">
-      A project made by The Nishachars, as we call ourselves, comprising of Aniruddh Muley, Dishant Vyas and Shrey Mavani, is a 
-      solution to a problem which almost every institute or event manager faces, but not resolved- The issues of managing the registration of attendees. The managers 
-      and commitees have a large team to work on these, but still there are chances of human error. College Fests and programs show the face and the reputation of the institute, 
-      and the shows, that of the artists performing. One small error can cause a great havoc for the organisers and the crowd.<br><br>
-      
-      Here we are with the solution. We offer a platform for the organisers to register themselves with us and put up their events on our platform. As the registrations start, the 
-      organizer will be shown the details of the attendees, who will be given a Uniquely Generated ID (UGID) for the event, and the required analytics to get an overview of the count. 
-    </h4>
+  <div id="whyUs" data-aos="zoom-in-up" data-aos-duration="1500">
+    <h2 style="font-family: 'Roboto', sans-serif;">Why Us?</h2><br>
+    <div id="features">
+      <div class="row">
+        <div class="feature-box  col-lg-2" style="background: azure; margin: 15px; border-radius: 15px;">
+          <center><i class="icon fas fa-chart-line fa-4x"></i></center>
+          <h3>Dedicated Event Dashboard</h3>
+          <p>Provided with required analytics of registrations.</p>
+        </div>
+  
+        <div class="feature-box  col-lg-2" style="background: azure; margin: 15px; border-radius: 15px; padding-top: 0.5%;">
+          <center><i class="icon fas fa-mobile-alt fa-4x"></i></center>
+          <h3>Email and mobile notifications</h3>
+          <p>A proof of registration, right on their devices.</p>
+        </div>
+  
+        <div class="feature-box  col-lg-2" style="background: azure; margin: 15px; border-radius: 15px; padding-top: 0.5%;">
+          <center><i class="icon fas fa-user-check fa-4x"></i></center>
+          <h3>Participant Validation</h3>
+          <p>Attendees verified by necessary ID proofs, to help in ease of conducting event.</p>
+        </div>
+
+        <div class="feature-box  col-lg-2" style="background: azure; margin: 15px; border-radius: 15px; padding-top: 0.5%;">
+          <center><i class="icon fas fa-clock fa-4x"></i></center>
+          <h3>Limit for registration</h3>
+          <p>Set a Time Limit till when the registrations can be kept open</p>
+        </div>
+
+        <div class="feature-box  col-lg-2" style="background: azure; margin: 15px; border-radius: 15px; padding-top: 0.5%;">
+          <center><i class="icon fas fa-check-double fa-4x"></i></center>
+          <h3>Unique ID for participants and events</h3>
+          <p>Again a proof of registration of event and attendees, to prevent any hassle.</p>
+        </div>
+      </div>
+    </div>
   </div><br><br>
 
   <div id="Categories" data-aos="zoom-in-up" data-aos-duration="1500">
@@ -103,7 +129,26 @@
         to hackathons and seminars, all of it. Not yet explored? Click <a href="">here</a> for the same...
       </h4>
     </div>
-  </div>
+  </div><br><br>
+
+  <div id="About" data-aos="zoom-in-up" data-aos-duration="1500">
+    <h2 style="font-family: 'Roboto', sans-serif;">About Us</h2><br>
+    <h4 style="font-family: 'Open Sans', sans-serif;">
+      A project made by The Nishachars, as we call ourselves, comprising of Aniruddh Muley, Dishant Vyas and Shrey Mavani, is a 
+      solution to a problem which almost every institute or event manager faces, but not resolved- The issues of managing the registration of attendees. The managers 
+      and commitees have a large team to work on these, but still there are chances of human error. College Fests and programs show the face and the reputation of the institute, 
+      and the shows, that of the artists performing. One small error can cause a great havoc for the organisers and the crowd.<br><br>
+      
+      Here we are with the solution. We offer a platform for the organisers to register themselves with us and put up their events on our platform. As the registrations start, the 
+      organizer will be shown the details of the attendees, who will be given a Uniquely Generated ID (UGID) for the event, and the required analytics to get an overview of the count. 
+    </h4>
+  </div><br><br>
+
+  <i class="fas fa-user fa-4x"></i> <!-- uses solid style -->
+  <i class="far fa-user"></i> <!-- uses regular style -->
+  <i class="fal fa-user fa-4x"></i> <!-- uses light style -->
+  <!--brand icon-->
+  <i class="fab fa-github-square"></i> <!-- uses brands style -->
 
   <script src="script.js"></script>
   <script src="particles.js"></script>

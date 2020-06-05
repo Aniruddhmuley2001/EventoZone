@@ -133,3 +133,28 @@ body{
   /* Style each tab content individually */
   /* #London {background-color:rgb(70, 60, 207);}
   #Paris {background-color:rgb(230, 28, 105);} */
+
+#Contact{
+    /* border: 2px solid #1900ff; */
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    /* background-color: rgb(162, 168, 170); */
+    font-weight: bold;
+    font-size: large;
+    padding: 0.5rem;
+    display: inline-block;
+    color: aliceblue;
+}
+
+#Contact h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    /* margin-left: 10px; */
+    background-color: #1900ff;
+    display: block;
+    color: white;
+    border-radius: 15px;
+    filter: saturate(0);
+}  

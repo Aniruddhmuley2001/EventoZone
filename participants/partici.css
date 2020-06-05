@@ -72,7 +72,7 @@
   
   .container{
     background-color:white;
-    padding: 8px;
+    padding: 0.5rem;
     border:2px solid rgb(209, 240, 240);
     border-radius: 20px;
     opacity: 0.92;
@@ -91,10 +91,32 @@
 }
 
 .background h1{
-  border: black 2px solid;
-  border-radius: 30px;
-  background-color: #0e152e;
-  filter: saturate(0.6);
-  font-family: 'Roboto', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  /* margin-left: 10px; */
+  background-color: #1900ff;
+  display: block;
+  color: white;
+  border-radius: 15px;
+  filter: saturate(0);
 } 
 
+#wrap h1{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  /* margin-left: 10px; */
+  background-color: #1900ff;
+  display: block;
+  color: white;
+  border-radius: 15px;
+  filter: saturate(0);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}

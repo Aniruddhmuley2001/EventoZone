@@ -43,8 +43,9 @@ table{
     background-color: blanchedalmond;
     color: black;
     font-family: 'Roboto', sans-serif;
-    border-radius: 20px;
+    border-radius: 2px;
     font-size: 1.20rem;
+    border: black 2px solid;
 }
 
 tr{

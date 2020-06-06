@@ -1,0 +1,52 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #1f2952;
+    background-image: url('../images/business-background-backgrounds-business-1-5c9b8f792dbd7.png');
+    color: aliceblue;
+    min-height: 380px;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+    padding: 60px;
+}
+
+h2{
+    font-size: 2.5em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    /* margin-left: 10px; */
+    background-color: #1900ff;
+    display: block;
+    border-radius: 15px;
+    filter: saturate(0);
+    margin: 15px;
+}
+
+#login_form{
+    border: 2px solid beige;
+    border-radius: 20px;
+    background-color: beige;
+    color: black;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.05rem 0.05rem;
+}
+
+table{
+    background-color: blanchedalmond;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    font-size: 1.20rem;
+}
+
+tr{
+    margin: 5rem;
+}

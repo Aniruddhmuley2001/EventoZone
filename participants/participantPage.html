@@ -101,17 +101,22 @@
 
             <div class="form-group" style="margin-top: 20px;">
                 <label class="text" for="username">Full name</label>
-                <input type="text" class="" name='p_name' placeholder="Full Name" id="username" rows="9">
+                <input type="text" class="" name='p_name' placeholder="Full Name" id="username" rows="9" required>
             </div>
 
             <div class="form-group">
                 <label class="number" for="mobile">Mobile</label>
-                <input type="number" class="" name='p_contact' placeholder="Mobile no." id="mobile">
+                <input type="number" class="" name='p_contact' placeholder="Mobile no." id="mobile" required>
             </div>
 
             <div class="form-group">
                 <label class="email" for="E-mail">E-mail</label>
-                <input type="email" class="" name='p_email' placeholder="E-mail" id="E-mail" rows="9">
+                <input type="email" class="" name='p_email' placeholder="E-mail" id="E-mail" rows="9" required>
+            </div>
+
+            <div class="form-group">
+                <label class="file" for="file">Upload ID card </label>
+                <input type="file" id="myFile" name="filename" id="file" required>
             </div>
                 
             <div class="form-check form-check-inline">
@@ -127,12 +132,12 @@
         </br>
             <div class="form-check form-check-inline">Registration-Type:
                 </br>
-                <input class="form-check-input" type="radio" name="p_type" id="inlineRadio1" value="Self" onclick="SelfSelect()">
+                <input class="form-check-input" type="radio" name="p_type" id="inlineRadio1" value="Self" onchange="RadioBtn1()">
                 <label class="form-check-label" for="inlineRadio1">Self</label>
             </div>
 
             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="p_type" id="inlineRadio2"
+                <input class="form-check-input" type="radio" name="p_type" id="inlineRadio2" onchange="RadioBtn2()"
                     value="Group">
                 <label class="form-check-label" for="inlineRadio2">Group</label>
             </div>
@@ -152,7 +157,7 @@
             </br>
             <div class="incre">No. of People
                 <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
-                <input type="number" name="p_tickets" id="numb" value="0" />
+                <input type="number" name="p_tickets" id="numb" value="1" />
                 <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
             </div>
             </br>

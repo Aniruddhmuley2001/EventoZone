@@ -1,5 +1,9 @@
-function SelfSelect(){
-    document.getElementsByClassName("incre").innerHTML = "1";
+function RadioBtn1(){
+    document.getElementById("numb").value = 1;
+}
+
+function RadioBtn2(){
+    document.getElementById("numb").value = 2;
 }
 
 var index = 0;
